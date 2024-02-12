@@ -1,0 +1,41 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ]
+    },
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts"
+, "src/app/blog-posts.tsx", "src/app/comments.tsx", "src/app/content.tsx", "src/components/blog-post-card.tsx", "src/components/blog-card-with-image.tsx", "src/components/comment-card.tsx", "src/components/fixed-plugin.tsx", "src/components/footer.tsx", "src/components/index.ts", "src/components/layout.tsx", "src/components/navbar.tsx", "src/components/new-comment.tsx", "src/components/simple-blog-card.tsx", "src/app/hero.tsx", "src/app/index.tsx", "src/app/layout.tsx"  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
